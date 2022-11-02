@@ -1,0 +1,28 @@
+@use '../util';
+
+
+h1, h2, h3, h4 {
+    font-weight: 800;
+    margin-top: 0;
+    line-height: 1;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: f.rem(48);
+}
+h2 {
+    font-size: f.rem(30);
+}
+h4 {
+    font-size: f.rem(14);
+}
+p {
+    font-size: f.rem(13);
+    color: var(--Dark-grayish-blue);
+}
+
+.grid__content {
+    margin-top: 1rem;
+}
+
