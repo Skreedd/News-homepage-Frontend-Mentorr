@@ -1,3 +1,11 @@
+@use '../util' as u;
+
+.container {
+    max-width: u.rem(1100);
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .main__card {
     border: 1px solid black;
 }
@@ -31,3 +39,7 @@
     margin-right: 0;
     line-height: 1.5;
 }
+
+// .main__text a{
+//     margin-top: 2rem;
+// }

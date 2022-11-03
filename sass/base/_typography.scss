@@ -1,27 +1,32 @@
-@use '../util';
+@use '../util' as u;
 
 
-h1, h2, h3, h4 {
+h1 {
     font-weight: 800;
+    margin-top: 0;
+    line-height: 1;
+    margin-top: 0;
+}
+h2, h3, h4 {
+    font-weight: 700;
     margin-top: 0;
     line-height: 1;
     margin-top: 0;
 }
 
 h1 {
-    font-size: f.rem(48);
+    font-size: clamp(u.rem(35), u.rem(16) + 2.5vw, u.rem(60));
 }
 h2 {
-    font-size: f.rem(30);
+    font-size: clamp(u.rem(18), u.rem(16) + 2vw, u.rem(40));
 }
 h4 {
-    font-size: f.rem(14);
+    font-size: clamp(u.rem(8), u.rem(14) + 2vw, u.rem(18));
 }
 p {
-    font-size: f.rem(13);
+    font-size: u.rem(13);
     color: var(--Dark-grayish-blue);
 }
-
 .grid__content {
     margin-top: 1rem;
 }
