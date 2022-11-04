@@ -15,27 +15,13 @@
         grid-template-columns: 2fr 1fr;
         grid-template-rows: auto;
     }
-
-    &__main {
-        border: 1px solid white;
-
-        & img{
-            max-width: 100%;
-        }
-
-    }
-    &__aside{
-        background-color: var(--Very-dark-blue);
-        color: var(--Off-white);
-        border: 1px solid white;
-        padding: 1.5rem;
-    }
 }
 
 .grid__content {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    margin-top: 1rem;
 
     @include util.breakpoint(large) {
         grid-template-columns: 1fr 1fr;

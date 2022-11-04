@@ -6,17 +6,27 @@
     margin-right: auto;
 }
 
+.grid__main {
+    border: 1px solid white;
+    
+    & img{
+        max-width: 100%;
+    }
+
+}
+.grid__aside{
+    background-color: var(--Very-dark-blue);
+    color: var(--Off-white);
+    border: 1px solid white;
+    padding: 1.5rem;
+}
+
 .main__card {
     border: 1px solid black;
 }
 
-.grid__aside p {
-    color: var(--soft-orange);
-}
-
 .card img {
     width: 120px;
-    // height: 80px;
 }
 
 .card h2 {
@@ -39,7 +49,3 @@
     margin-right: 0;
     line-height: 1.5;
 }
-
-// .main__text a{
-//     margin-top: 2rem;
-// }
