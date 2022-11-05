@@ -11,23 +11,16 @@
         grid-template-columns: 2fr 1fr;
         grid-template-rows: auto;
     }
-    @include util.breakpoint(medium) {
-        grid-template-columns: 2fr 1fr;
-        grid-template-rows: auto;
-    }
 }
 
 .grid__content {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+    gap: 10px;
     margin-top: 1rem;
 
     @include util.breakpoint(large) {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-    }
-    @include util.breakpoint(medium) {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
     }
@@ -37,10 +30,6 @@
     flex-direction: column;
 
     @include util.breakpoint(large) {
-        display: flex;
-        flex-direction: row;
-    }
-    @include util.breakpoint(medium) {
         display: flex;
         flex-direction: row;
     }

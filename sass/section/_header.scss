@@ -4,6 +4,7 @@
     max-width: u.rem(1100);
     margin-left: auto;
     margin-right: auto;
+
 }
 
 .grid__main {
@@ -22,7 +23,7 @@
 }
 
 .main__card {
-    border: 1px solid black;
+    margin-top: 1rem;
 }
 
 .card img {
@@ -48,4 +49,40 @@
 .card div {
     margin-right: 0;
     line-height: 1.5;
+}
+
+.hide {
+    display: none;
+}
+
+.header__menu {
+    position: absolute;
+    background-color: var(--Off-white);
+    padding: 1.625rem;
+    height: 100vh;
+    width: 100%;
+    left: 30%;
+
+    @include u.breakpoint(large) {
+        display: none;
+    }
+    a{
+        color: var(--Very-dark-blue);
+        padding: 0.625rem;
+        display: block;
+    }
+}
+
+.attribution {
+    text-align: center;
+    margin: 2rem;
+
+    a{
+        color: var(--Grayish-blue);
+        &:hover {
+            color: var(--Soft-orange);
+            transition: 0.8s ease;
+        }
+    }
+
 }
