@@ -10,9 +10,9 @@
     letter-spacing: 0.2rem;
     transition: 1s ease;
     cursor: pointer;
-    margin-top: 2rem;
-}
+    margin-top: 1rem;
 
-.btn:hover {
-    background-color: var( --Very-dark-blue);
+    &:hover {
+        background-color: var( --Very-dark-blue);
+    }
 }

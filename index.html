@@ -8,12 +8,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./dist/main.css">
-  <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
   <title>Frontend Mentor | News homepage</title>
 </head>
 <body>
   <div class="container">
-    <div class="overlay"></div>
     <!-- NAVBAR -->
     <nav class="navbar">
       <a href="#"><img src="./assets/images/logo.svg" alt="Logo"></a>
@@ -31,7 +29,7 @@
         </ul>
 
     </nav>
-    <div class=" header__menu has-fade">
+    <div id="headMenu" class="header__menu has-fade hide">
       <a href="">Home</a>
       <a href="">New</a>
       <a href="">Popular</a>
@@ -60,14 +58,12 @@
         <div class="aside__content">
           <h4>Hydrogen VS Electric cars</h4>
           <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-          <hr>
         </div>
-        <div>
+        <div class="aside__content">
           <h4>The Downsides of AI Artistry</h4>
           <p>What are the possible adverse effects of on-demand AI image generation?</p>
-          <hr>
         </div>
-        <div>
+        <div class="aside__content">
           <h4>Is VC Funding Drying Up?</h4>
           <p>
             Private funding by VC firms is down 50% YOY. We take a look at what that means.
