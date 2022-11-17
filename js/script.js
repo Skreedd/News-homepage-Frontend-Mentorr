@@ -5,8 +5,6 @@ const menu = document.querySelector('.header__menu');
 
 
 Hamburger.addEventListener('click', () => {
-        console.log('click hamburger');
-
         if (Hamburger.classList.contains('open')) {
             Hamburger.classList.remove('open');
             body.classList.remove('noscroll');
